@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST
+META.json
+META.yml
+Makefile.PL
+README
+README.md
+bin/duckduckgo-ui
+dist.ini
+duckduckgo-ui.yml
+lib/App/DuckDuckGo/UI.pm
+lib/App/DuckDuckGo/UI/Config.pm
+lib/Curses/UI/ResultBox.pm
+lib/Curses/UI/SearchBox.pm
+t/release-eol.t
+t/release-pod-syntax.t

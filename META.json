@@ -1,0 +1,49 @@
+{
+   "abstract" : "DuckDuckGo UI using Curses::UI",
+   "author" : [
+      "Michael Smith <crazedpsyc@duckduckgo.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "App-DuckDuckGo-UI",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::Pod" : "1.41"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Config::Any" : "0.23",
+            "Curses::UI::POE" : "0.04",
+            "JSON" : "2.53",
+            "POE::Component::Client::HTTP" : "0.947",
+            "POE::Component::SSLify" : "1.008",
+            "URI::Encode" : "0.08"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "https://github.com/duckduckgo/p5-app-duckduckgo-ui",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/duckduckgo/p5-app-duckduckgo-ui.git",
+         "web" : "https://github.com/duckduckgo/p5-app-duckduckgo-ui"
+      }
+   },
+   "version" : "0.001"
+}
+

@@ -1,0 +1,37 @@
+# Command to execute for the web browser -- %s is replaced with the URL.
+browser: w3m %s
+
+# Try to use SSL for all connections? (requires OpenSSL binaries at runtime)
+ssl: false
+
+# Enable debugging in curses? (dumps all events to the log)
+debug: true
+
+# Extra URL params to pass to the API (see: https://duckduckgo.com/params)
+params:
+    # SafeSearch
+    kp: -1
+    # Region (wt-wt is None)
+    kl: wt-wt
+
+# UI configuration
+interface:
+    searchbox:
+        # These are the builtin defaults, for examples.
+        -border: true
+        -bfg: red
+        -fg: default # default terminal setting
+        -bg: default
+        
+        # The values here can be either from a set of predefined functions in the widget, or "eval $perl_code"
+        keys:
+            # lame examples; probably best to be removed
+            #$: cursor-end
+            #^: cursor-home
+            #'\': eval $self->ui->dialog('A backslash!');
+
+    window:
+        -border: true
+
+    duck: # the ASCII duck at startup
+        -fg: green

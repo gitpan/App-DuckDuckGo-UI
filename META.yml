@@ -1,0 +1,25 @@
+---
+abstract: 'DuckDuckGo UI using Curses::UI'
+author:
+  - 'Michael Smith <crazedpsyc@duckduckgo.com>'
+build_requires: {}
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: App-DuckDuckGo-UI
+requires:
+  Config::Any: 0.23
+  Curses::UI::POE: 0.04
+  JSON: 2.53
+  POE::Component::Client::HTTP: 0.947
+  POE::Component::SSLify: 1.008
+  URI::Encode: 0.08
+resources:
+  homepage: https://github.com/duckduckgo/p5-app-duckduckgo-ui
+  repository: git://github.com/duckduckgo/p5-app-duckduckgo-ui.git
+version: 0.001
