@@ -1,4 +1,7 @@
 package App::DuckDuckGo::UI;
+BEGIN {
+  $App::DuckDuckGo::UI::AUTHORITY = 'cpan:DDG';
+}
 # ABSTRACT: DuckDuckGo UI using Curses::UI
 
 use Moo;

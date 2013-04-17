@@ -30,7 +30,7 @@ my %WriteMakefileArgs = (
     "URI::Encode" => "0.08"
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

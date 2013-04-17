@@ -22,4 +22,5 @@ requires:
 resources:
   homepage: https://github.com/duckduckgo/p5-app-duckduckgo-ui
   repository: git://github.com/duckduckgo/p5-app-duckduckgo-ui.git
-version: 0.001
+version: 0.002
+x_authority: cpan:DDG

@@ -1,6 +1,9 @@
 package App::DuckDuckGo::UI::Config;
+BEGIN {
+  $App::DuckDuckGo::UI::Config::AUTHORITY = 'cpan:DDG';
+}
 {
-  $App::DuckDuckGo::UI::Config::VERSION = '0.001';
+  $App::DuckDuckGo::UI::Config::VERSION = '0.002';
 }
 # ABSTRACT: App::DuckDuckGo::UI configuration manager
 

@@ -15,6 +15,9 @@
 # ----------------------------------------------------------------------
 
 package Curses::UI::ResultBox;
+BEGIN {
+  $Curses::UI::ResultBox::AUTHORITY = 'cpan:DDG';
+}
 
 use strict;
 use Curses;

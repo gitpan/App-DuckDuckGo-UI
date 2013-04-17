@@ -1,6 +1,9 @@
 package Curses::UI::SearchBox;
+BEGIN {
+  $Curses::UI::SearchBox::AUTHORITY = 'cpan:DDG';
+}
 {
-  $Curses::UI::SearchBox::VERSION = '0.001';
+  $Curses::UI::SearchBox::VERSION = '0.002';
 }
 # ABSTRACT: Extension of Curses::UI::TextEntry
 use Moo;
